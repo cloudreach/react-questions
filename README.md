@@ -19,6 +19,8 @@ There is a component with a bug - it renders empty on page load. Can you fix it?
 to do with component lifecycles.
 
 ## Question 4
+This is a question that is about general JS knowledge, not to do with React.
+
 Imagine representing a grid-shaped game map as a 2-dimensional array. Each value of this array is
 boolean `true` or `false` representing whether that part of the map is passable (a floor) or blocked
 (a wall). Write a function `function pathfind(A, P, Q) { }`that takes such an array `A` and 2 points
