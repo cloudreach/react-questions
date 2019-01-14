@@ -6,6 +6,7 @@ We have a component that is managing its own state. Refactor it so the state is 
 
 1. Implement the Redux backend.
 2. Lift the state out of the `Filter` component and manage it with Redux (`filterText`).
+3. Update the `ItemList` component to that it displays the filtered items.
 
 ## Running the project
 
