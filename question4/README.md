@@ -1,23 +1,5 @@
-# react-questions
-Clone this repo for our React interview.
+# Cloudreach React Question 4
 
-There are 4 questions, each with its own directory. For each question, use the instructions here to
-know what to do. Do all the work for each question inside that question's directory.
-
-## Question 1
-Write a simple react component for a Card using es6 syntax. This component has no props and should
-just render its children inside a div with the class "card".
-
-We have created a file and imported React at the top, add the component in there.
-
-## Question 2
-We have a component that is managing its own state. Refactor it so the state is managed using Redux.
-
-## Question 3
-There is a bug in the `Accordion` component where it doesn't correctly expand. Can you fix it? It may be something
-to do with component lifecycles.
-
-## Question 4
 This is a question that is about general JS knowledge, not to do with React.
 
 Imagine representing a grid-shaped game map as a 2-dimensional array. Each value of this array is
@@ -36,3 +18,11 @@ eg. Given the map (where '.' is passable - `true`, and '#' is blocked - `false`)
 ```
 
 then `pathfind(A, P, Q)` should return `6`.
+
+## What to do
+
+1. Implement the `pathfind` function in `pathfind.js`.
+2. Feel free to add further test cases to `spec/pathfind_spec.js`.
+
+## Running the tests
+Tests have been implemented using Jasmine and can be run by running `npm test`
