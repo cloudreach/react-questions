@@ -12,7 +12,6 @@ We have created a file and imported React at the top, add the component in there
 
 ## Question 2
 We have a component that is managing its own state. Refactor it so the state is managed using Redux.
-Use the existing code structure.
 
 ## Question 3
 There is a component with a bug - it renders empty on page load. Can you fix it? It may be something
@@ -37,4 +36,3 @@ eg. Given the map (where '.' is passable - `true`, and '#' is blocked - `false`)
 ```
 
 then `pathfind(A, P, Q)` should return `6`.
-
