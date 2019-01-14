@@ -14,7 +14,7 @@ We have created a file and imported React at the top, add the component in there
 We have a component that is managing its own state. Refactor it so the state is managed using Redux.
 
 ## Question 3
-There is a component with a bug - it renders empty on page load. Can you fix it? It may be something
+There is a bug in the `Accordion` component where it doesn't correctly expand. Can you fix it? It may be something
 to do with component lifecycles.
 
 ## Question 4
