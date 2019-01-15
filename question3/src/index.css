@@ -1,0 +1,38 @@
+.accordion {
+  width: 100%;
+  font-size: inherit;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  border-width: 0;
+  border-style: inset;
+  border-bottom-width: 6px;
+  vertical-align: middle;
+  cursor: pointer;
+  color: #fff;
+  background-color: #808080;
+}
+.accordion:after {
+  content: '+';
+  float: right;
+  text-shadow: none;
+  font-weight: bold;
+  width: 1rem;
+  text-align: center;
+  margin-left: 5px;
+}
+.accordion.active:after {
+  content: '-';
+}
+
+.panel {
+  max-height: 0;
+  padding: 0;
+  overflow: auto;
+  transition: 0.3s ease-in-out;
+  background-color: #fff;
+}
+.panel.show {
+  max-height: 800px;
+  padding: 0.5rem;
+}
