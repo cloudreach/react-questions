@@ -12,7 +12,7 @@ We have created a file and imported React at the top, add the component in there
 
 ## Running the project
 
-### `npm start`
+### `npm run question2`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
