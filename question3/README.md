@@ -1,11 +1,12 @@
 # Cloudreach React Question 3
 
-There is a bug in the `Accordion` component where it doesn't correctly expand. Can you fix it? It may be something
-to do with component lifecycles.
+We have a component that is managing its own state. Refactor it so the state is managed using Redux.
 
 ## What to do
 
-1. Find and fix the bug with the `Accordion` component so that it correctly expands to display its content when clicked.
+1. Implement the Redux backend.
+2. Lift the state out of the `Filter` component and manage it with Redux (`filterText`).
+3. Update the `ItemList` component to that it displays the filtered items.
 
 ## Running the project
 

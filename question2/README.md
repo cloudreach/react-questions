@@ -1,12 +1,14 @@
 # Cloudreach React Question 2
 
-We have a component that is managing its own state. Refactor it so the state is managed using Redux.
+Write a simple react component for a Card using es6 syntax. This component has no props and should
+just render its children inside a div with the class "card".
+
+We have created a file and imported React at the top, add the component in there.
 
 ## What to do
 
-1. Implement the Redux backend.
-2. Lift the state out of the `Filter` component and manage it with Redux (`filterText`).
-3. Update the `ItemList` component to that it displays the filtered items.
+1. Define a simple `Card` component in `src/Card.jsx`
+2. Update `src/index.js` to render the `Card` component to the `root` element in the document.
 
 ## Running the project
 

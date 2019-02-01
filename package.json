@@ -14,7 +14,6 @@
     "request-promise-native": "^1.0.5"
   },
   "scripts": {
-    "question1": "cd question1 && react-scripts start",
     "question2": "cd question2 && react-scripts start",
     "question3": "cd question3 && react-scripts start",
     "question4": "cd question4 && react-scripts start"

@@ -1,15 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Card from './Card'
 
-import Filter from './Filter'
-import ItemList from './ItemList'
-
-ReactDOM.render(
-  <div className='app'>
-    <Filter
-      data={['foo', 'bar']}
-      onFilter={(filtered) => console.log(filtered)}/>
-    <ItemList items={['foo', 'bar']}/>
-  </div>,
-  document.getElementById('root')
-)
+// Render your element to the 'root' div to test it
